@@ -102,4 +102,4 @@ client.once("ready", () => {
 });
 
 // TOKEN DO BOT
-client.login("SEU_TOKEN");
+client.login(process.env.TOKEN);
